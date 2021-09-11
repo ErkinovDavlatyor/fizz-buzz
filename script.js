@@ -1,6 +1,8 @@
 let elForm = document.querySelector("#form")
 let elInput = elForm.querySelector("#input")
 let elResult = elForm.querySelector("#result")
+let elButton = elForm.querySelector("#submit")
+
 
 elForm.addEventListener('submit', function(evt){
     evt.preventDefault()
